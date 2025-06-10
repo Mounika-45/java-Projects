@@ -19,7 +19,7 @@ public class ToDoListApp {
 			sc.nextLine();
 			if(choice==1) {
 				System.out.println("Enter your task");
-				
+			
 				String task=sc.nextLine();
 				tasks.add(task);
 				System.out.println("Task Added Successfully");
